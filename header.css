@@ -1,0 +1,54 @@
+/* header */
+header button{
+    scale: 150%;
+    margin-left: 50px;
+    box-shadow: none;
+}
+
+header button:hover{
+    scale: 180%;
+    background-image: url(https://plus.unsplash.com/premium_photo-1671462650670-0021bde24da7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTV8bEhWODUwOGRTVTR8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+    color: red;
+    background-size: cover;
+    box-shadow: none;
+    border-radius: 20%;
+}
+header button:active{
+    box-shadow: none;
+    scale: 160%;
+}
+header{
+    background-color: rgb(148, 66, 66);
+}
+
+header div.topbar{
+    height: 40px;
+    background-color: rgb(12, 12, 12);
+}
+
+header nav{
+    height: 120px;
+    background-color: aqua;
+    background-image: url(https://images.unsplash.com/photo-1489537235181-fc05daed5805?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: space-between;
+    font-size: larger;
+    padding-inline: 20px;
+}
+header nav div img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    border-radius: 40%;    
+}
+header nav div img:hover{
+    scale: 105%;
+}
+header nav div img:active{
+    scale: 100%;
+}
+.navlinks{
+    align-items: end;
+}
